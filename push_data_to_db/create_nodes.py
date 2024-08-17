@@ -7,18 +7,34 @@ product_data_df = pd.read_csv('../data/product_data.csv')
 
 
 def preprocessing(df, columns_to_replace):
+    """
+    Used to preprocess certain column in dataframe
+    :param df: pandas dataframe - data
+    :param columns_to_replace: list - column name list
+    :return: df: pandas dataframe - processed data
+    """
     df[columns_to_replace] = df[columns_to_replace].apply(lambda col: col.str.replace("'s", "s"))
     df[columns_to_replace] = df[columns_to_replace].apply(lambda col: col.str.replace("'", ""))
     return df
 
 
 def get_embedding(text):
+    """
+    Used to generate embeddings using OpenAI embeddings model
+    :param text: str - text that needs to be converted to embeddings
+    :return: embedding
+    """
     model = "text-embedding-3-small"
     text = text.replace("\n", " ")
     return client.embeddings.create(input=[text], model=model).data[0].embedding
 
 
 def create_category(product_data_df):
+    """
+    Used to generate queries for creating category nodes in neo4j
+    :param product_data_df: pandas dataframe - data
+    :return: query_list: list - list containing all create node queries for category
+    """
     cat_query = """CREATE (a:Category {name: '%s', embedding: %s})"""
     distinct_category = product_data_df['Category'].unique()
     query_list = []
@@ -29,6 +45,11 @@ def create_category(product_data_df):
 
 
 def create_product(product_data_df):
+    """
+    Used to generate queries for creating product nodes in neo4j
+    :param product_data_df: pandas dataframe - data
+    :return: query_list: list - list containing all create node queries for product
+    """
     product_query = """CREATE (a:Product {name: '%s', description: '%s', price: %d, warranty_period: %d, 
     available_stock: %d, review_rating: %f, product_release_date: date('%s'), embedding: %s})"""
     query_list = []
