@@ -1,201 +1,101 @@
-ID,Category,Product Name,Price (INR),Description,Warranty Period (Years),Stock,Review Rating,Product Release Date
-1,laptops,Lenovo ThinkPad X1,58127,The Lenovo ThinkPad X1 combines power and portability.,4,491,3.9,2021-09-03
-2,mobiles,Google Pixel 7,51420,Capture stunning photos with the Google Pixel 7.,5,321,1.8,2023-05-10
-3,laptops,Lenovo ThinkPad X1,51148,The Lenovo ThinkPad X1 is perfect for work and play.,2,352,5.0,2020-12-08
-4,washing machines,LG Front Load,13313,The LG Front Load makes laundry day a breeze.,2,363,1.5,2021-05-04
-5,mobiles,OnePlus 10,128327,Capture stunning photos with the OnePlus 10.,4,179,1.3,2021-03-15
-6,headphones,Sennheiser HD 450BT,51007,The Sennheiser HD 450BT offers superior noise cancellation.,3,471,1.2,2022-05-12
-7,laptops,HP Spectre x360,6650,The HP Spectre x360 is perfect for work and play.,4,75,1.3,2019-06-07
-8,headphones,Bose QuietComfort 35,120349,Experience unparalleled sound quality with the Bose QuietComfort 35.,1,103,4.0,2021-06-04
-9,headphones,Sennheiser HD 450BT,7093,Experience unparalleled sound quality with the Sennheiser HD 450BT.,3,409,1.3,2021-01-04
-10,mobiles,iPhone 14,40929,The iPhone 14 redefines smartphone innovation.,2,137,3.0,2023-12-10
-11,headphones,JBL Tune 750BT,20407,Enjoy long-lasting comfort with the JBL Tune 750BT.,2,224,2.4,2018-08-24
-12,laptops,HP Spectre x360,29386,The HP Spectre x360 combines power and portability.,1,294,3.8,2019-11-08
-13,laptops,MacBook Air,119428,Experience seamless multitasking with the MacBook Air.,1,397,3.8,2020-06-04
-14,washing machines,IFB Top Load,99628,Effortlessly clean your clothes with the IFB Top Load.,4,489,2.3,2020-02-12
-15,washing machines,IFB Top Load,5238,Save time and energy with the IFB Top Load.,5,301,4.6,2021-02-15
-16,headphones,Bose QuietComfort 35,72088,Experience unparalleled sound quality with the Bose QuietComfort 35.,4,157,4.5,2021-05-20
-17,headphones,Beats Studio3,106332,Experience unparalleled sound quality with the Beats Studio3.,1,257,3.2,2021-11-07
-18,mobiles,iPhone 14,64582,Stay connected and productive with the iPhone 14.,2,70,1.1,2018-04-10
-19,mobiles,Xiaomi Mi 11,129836,The Xiaomi Mi 11 redefines smartphone innovation.,3,348,1.9,2020-09-21
-20,mobiles,Google Pixel 7,75700,Capture stunning photos with the Google Pixel 7.,5,61,3.5,2023-09-10
-21,headphones,Beats Studio3,85437,The Beats Studio3 offers superior noise cancellation.,4,477,2.8,2021-02-23
-22,washing machines,Bosch Fully Automatic,46581,Effortlessly clean your clothes with the Bosch Fully Automatic.,4,373,3.4,2020-09-19
-23,washing machines,Bosch Fully Automatic,54654,Effortlessly clean your clothes with the Bosch Fully Automatic.,3,478,2.3,2022-09-16
-24,mobiles,iPhone 14,62317,The iPhone 14 redefines smartphone innovation.,5,428,1.5,2022-06-01
-25,washing machines,Whirlpool Semi-Automatic,12586,Effortlessly clean your clothes with the Whirlpool Semi-Automatic.,3,402,4.6,2022-12-16
-26,mobiles,Samsung Galaxy S22,68379,Stay connected and productive with the Samsung Galaxy S22.,2,341,2.2,2022-04-22
-27,laptops,MacBook Air,38118,The MacBook Air is perfect for work and play.,1,382,1.9,2018-09-24
-28,laptops,MacBook Air,13821,The MacBook Air combines power and portability.,5,317,1.3,2020-10-08
-29,mobiles,Google Pixel 7,51801,Capture stunning photos with the Google Pixel 7.,5,458,3.7,2021-02-21
-30,headphones,Beats Studio3,17750,The Beats Studio3 offers superior noise cancellation.,4,397,3.7,2018-10-02
-31,headphones,Bose QuietComfort 35,35671,Enjoy long-lasting comfort with the Bose QuietComfort 35.,4,344,3.8,2020-01-27
-32,laptops,Asus ZenBook,18702,The Asus ZenBook combines power and portability.,1,18,4.1,2020-06-17
-33,mobiles,Samsung Galaxy S22,95545,The Samsung Galaxy S22 redefines smartphone innovation.,2,427,1.1,2021-06-07
-34,mobiles,OnePlus 10,118971,Stay connected and productive with the OnePlus 10.,4,175,3.1,2020-12-03
-35,mobiles,iPhone 14,103205,The iPhone 14 redefines smartphone innovation.,1,471,1.9,2023-04-09
-36,headphones,Sony WH-1000XM4,43542,Enjoy long-lasting comfort with the Sony WH-1000XM4.,5,378,2.6,2023-10-05
-37,headphones,Beats Studio3,72141,The Beats Studio3 offers superior noise cancellation.,4,457,3.2,2020-05-04
-38,laptops,Lenovo ThinkPad X1,5084,The Lenovo ThinkPad X1 combines power and portability.,2,341,3.9,2018-03-11
-39,mobiles,Samsung Galaxy S22,74545,The Samsung Galaxy S22 redefines smartphone innovation.,4,177,1.4,2022-12-11
-40,mobiles,iPhone 14,49366,Stay connected and productive with the iPhone 14.,4,32,2.3,2019-04-15
-41,mobiles,iPhone 14,16288,The iPhone 14 redefines smartphone innovation.,3,282,2.0,2021-08-28
-42,headphones,Sennheiser HD 450BT,41888,Enjoy long-lasting comfort with the Sennheiser HD 450BT.,3,374,3.2,2021-01-10
-43,washing machines,Samsung Top Load,102054,Save time and energy with the Samsung Top Load.,5,268,1.2,2019-11-28
-44,mobiles,Xiaomi Mi 11,34979,Capture stunning photos with the Xiaomi Mi 11.,4,107,3.2,2019-04-15
-45,headphones,Beats Studio3,148303,Experience unparalleled sound quality with the Beats Studio3.,1,32,2.1,2019-10-13
-46,laptops,MacBook Air,99002,The MacBook Air is perfect for work and play.,5,160,3.8,2020-08-20
-47,headphones,Bose QuietComfort 35,90211,Enjoy long-lasting comfort with the Bose QuietComfort 35.,1,11,4.3,2020-12-21
-48,mobiles,iPhone 14,42942,Stay connected and productive with the iPhone 14.,1,443,3.7,2023-10-09
-49,headphones,Beats Studio3,19398,The Beats Studio3 offers superior noise cancellation.,1,66,4.2,2023-03-27
-50,headphones,Sony WH-1000XM4,120943,The Sony WH-1000XM4 offers superior noise cancellation.,1,229,3.5,2018-09-09
-51,laptops,Dell XPS 13,88372,The Dell XPS 13 combines power and portability.,4,65,2.8,2018-02-16
-52,washing machines,IFB Top Load,31064,Effortlessly clean your clothes with the IFB Top Load.,2,237,3.4,2023-08-11
-53,mobiles,OnePlus 10,71015,The OnePlus 10 redefines smartphone innovation.,4,376,4.8,2023-09-09
-54,laptops,MacBook Air,100864,The MacBook Air is perfect for work and play.,5,339,1.3,2021-06-19
-55,headphones,Sennheiser HD 450BT,79111,The Sennheiser HD 450BT offers superior noise cancellation.,4,334,3.6,2023-05-27
-56,laptops,MacBook Air,136707,The MacBook Air is perfect for work and play.,4,141,1.3,2023-03-23
-57,mobiles,iPhone 14,53916,Capture stunning photos with the iPhone 14.,5,45,1.2,2023-10-06
-58,mobiles,Samsung Galaxy S22,148704,Capture stunning photos with the Samsung Galaxy S22.,1,425,3.8,2023-05-14
-59,laptops,Lenovo ThinkPad X1,76690,Experience seamless multitasking with the Lenovo ThinkPad X1.,2,309,3.7,2023-10-21
-60,mobiles,iPhone 14,43696,The iPhone 14 redefines smartphone innovation.,3,387,2.0,2021-08-09
-61,headphones,Sennheiser HD 450BT,27769,The Sennheiser HD 450BT offers superior noise cancellation.,1,437,1.6,2019-02-28
-62,headphones,Bose QuietComfort 35,104347,Enjoy long-lasting comfort with the Bose QuietComfort 35.,1,249,4.2,2021-08-10
-63,headphones,JBL Tune 750BT,147419,Enjoy long-lasting comfort with the JBL Tune 750BT.,1,31,2.6,2019-01-21
-64,washing machines,LG Front Load,22637,Save time and energy with the LG Front Load.,4,75,2.2,2020-05-15
-65,laptops,Asus ZenBook,56671,The Asus ZenBook combines power and portability.,5,158,1.5,2023-04-15
-66,laptops,Lenovo ThinkPad X1,13276,The Lenovo ThinkPad X1 is perfect for work and play.,4,133,3.7,2022-07-04
-67,mobiles,Samsung Galaxy S22,140879,Capture stunning photos with the Samsung Galaxy S22.,4,120,1.7,2023-08-14
-68,laptops,Dell XPS 13,92223,The Dell XPS 13 combines power and portability.,3,48,3.2,2021-12-08
-69,mobiles,iPhone 14,6999,Stay connected and productive with the iPhone 14.,5,414,1.2,2021-08-11
-70,mobiles,Google Pixel 7,65028,The Google Pixel 7 redefines smartphone innovation.,5,176,4.8,2018-07-25
-71,washing machines,LG Front Load,66623,The LG Front Load makes laundry day a breeze.,2,97,3.4,2020-02-19
-72,laptops,Asus ZenBook,70038,The Asus ZenBook combines power and portability.,2,167,3.5,2018-09-02
-73,headphones,Beats Studio3,79428,Enjoy long-lasting comfort with the Beats Studio3.,3,277,3.6,2019-04-16
-74,washing machines,Bosch Fully Automatic,76435,Save time and energy with the Bosch Fully Automatic.,2,109,1.2,2023-11-26
-75,mobiles,Samsung Galaxy S22,40675,The Samsung Galaxy S22 redefines smartphone innovation.,3,192,2.8,2023-12-10
-76,headphones,Bose QuietComfort 35,114813,Experience unparalleled sound quality with the Bose QuietComfort 35.,1,486,2.3,2022-04-19
-77,mobiles,OnePlus 10,22315,Stay connected and productive with the OnePlus 10.,5,65,4.7,2021-07-25
-78,laptops,Dell XPS 13,51275,The Dell XPS 13 combines power and portability.,2,41,4.2,2022-11-03
-79,laptops,HP Spectre x360,98357,The HP Spectre x360 is perfect for work and play.,2,339,3.4,2023-06-19
-80,mobiles,Xiaomi Mi 11,97080,The Xiaomi Mi 11 redefines smartphone innovation.,1,301,3.5,2021-02-22
-81,washing machines,Samsung Top Load,80765,Save time and energy with the Samsung Top Load.,1,361,3.4,2020-05-25
-82,mobiles,Samsung Galaxy S22,95945,Stay connected and productive with the Samsung Galaxy S22.,1,451,4.6,2018-07-03
-83,washing machines,Whirlpool Semi-Automatic,62151,The Whirlpool Semi-Automatic makes laundry day a breeze.,3,31,3.7,2020-12-25
-84,washing machines,LG Front Load,138747,The LG Front Load makes laundry day a breeze.,3,85,2.4,2018-06-21
-85,mobiles,iPhone 14,82910,The iPhone 14 redefines smartphone innovation.,4,60,2.8,2023-04-09
-86,mobiles,iPhone 14,117364,The iPhone 14 redefines smartphone innovation.,4,37,2.3,2020-06-03
-87,mobiles,Xiaomi Mi 11,46213,Stay connected and productive with the Xiaomi Mi 11.,3,370,2.2,2018-02-16
-88,washing machines,LG Front Load,80294,The LG Front Load makes laundry day a breeze.,3,339,4.0,2018-08-17
-89,laptops,Lenovo ThinkPad X1,127088,The Lenovo ThinkPad X1 is perfect for work and play.,2,253,3.3,2018-12-22
-90,headphones,Bose QuietComfort 35,124771,Experience unparalleled sound quality with the Bose QuietComfort 35.,2,332,4.3,2018-12-20
-91,laptops,Asus ZenBook,85291,The Asus ZenBook is perfect for work and play.,1,170,4.7,2021-07-04
-92,washing machines,Bosch Fully Automatic,112994,The Bosch Fully Automatic makes laundry day a breeze.,3,110,2.7,2019-10-10
-93,laptops,Lenovo ThinkPad X1,20060,The Lenovo ThinkPad X1 combines power and portability.,4,208,4.6,2022-12-05
-94,washing machines,Bosch Fully Automatic,37057,Save time and energy with the Bosch Fully Automatic.,4,315,3.6,2019-06-05
-95,mobiles,iPhone 14,101178,Capture stunning photos with the iPhone 14.,1,369,1.6,2018-10-14
-96,mobiles,OnePlus 10,103494,Stay connected and productive with the OnePlus 10.,1,270,3.0,2018-01-26
-97,washing machines,Whirlpool Semi-Automatic,109494,Save time and energy with the Whirlpool Semi-Automatic.,4,256,3.8,2023-12-20
-98,washing machines,Samsung Top Load,85997,The Samsung Top Load makes laundry day a breeze.,3,286,1.7,2019-09-13
-99,washing machines,Whirlpool Semi-Automatic,65229,The Whirlpool Semi-Automatic makes laundry day a breeze.,3,28,2.9,2018-10-14
-100,washing machines,IFB Top Load,132915,Save time and energy with the IFB Top Load.,5,36,3.3,2023-03-17
-101,washing machines,Bosch Fully Automatic,101408,The Bosch Fully Automatic makes laundry day a breeze.,1,362,3.1,2023-08-12
-102,laptops,Asus ZenBook,25055,Experience seamless multitasking with the Asus ZenBook.,5,145,2.1,2022-08-16
-103,washing machines,Whirlpool Semi-Automatic,114675,Effortlessly clean your clothes with the Whirlpool Semi-Automatic.,2,319,3.4,2021-11-09
-104,laptops,HP Spectre x360,13520,The HP Spectre x360 combines power and portability.,1,458,4.8,2021-01-12
-105,laptops,HP Spectre x360,77610,The HP Spectre x360 is perfect for work and play.,1,180,1.4,2020-12-17
-106,laptops,Dell XPS 13,18105,The Dell XPS 13 combines power and portability.,4,50,3.6,2018-03-25
-107,laptops,Asus ZenBook,76123,The Asus ZenBook combines power and portability.,3,458,2.6,2021-10-19
-108,mobiles,OnePlus 10,120241,Stay connected and productive with the OnePlus 10.,4,66,4.8,2023-03-22
-109,laptops,Dell XPS 13,79045,The Dell XPS 13 combines power and portability.,5,399,2.7,2023-10-02
-110,headphones,Sennheiser HD 450BT,114217,The Sennheiser HD 450BT offers superior noise cancellation.,2,178,3.1,2021-07-11
-111,headphones,Sennheiser HD 450BT,21095,Experience unparalleled sound quality with the Sennheiser HD 450BT.,2,132,2.1,2023-10-25
-112,laptops,Lenovo ThinkPad X1,55351,The Lenovo ThinkPad X1 combines power and portability.,4,66,3.2,2023-08-04
-113,mobiles,Google Pixel 7,120322,Stay connected and productive with the Google Pixel 7.,2,359,1.9,2018-08-20
-114,mobiles,Xiaomi Mi 11,13659,Capture stunning photos with the Xiaomi Mi 11.,5,218,2.1,2021-04-01
-115,washing machines,LG Front Load,81062,Effortlessly clean your clothes with the LG Front Load.,3,375,2.8,2021-11-16
-116,headphones,Sony WH-1000XM4,39010,Enjoy long-lasting comfort with the Sony WH-1000XM4.,5,330,1.5,2021-12-26
-117,mobiles,iPhone 14,110014,Stay connected and productive with the iPhone 14.,5,98,1.5,2020-05-10
-118,headphones,JBL Tune 750BT,124086,Enjoy long-lasting comfort with the JBL Tune 750BT.,3,39,4.8,2018-11-25
-119,laptops,Lenovo ThinkPad X1,30036,Experience seamless multitasking with the Lenovo ThinkPad X1.,5,147,3.8,2020-11-12
-120,mobiles,Samsung Galaxy S22,73840,Stay connected and productive with the Samsung Galaxy S22.,4,428,2.9,2022-11-14
-121,laptops,Asus ZenBook,63694,Experience seamless multitasking with the Asus ZenBook.,5,98,1.4,2018-04-04
-122,washing machines,Samsung Top Load,105843,Save time and energy with the Samsung Top Load.,2,453,1.9,2019-06-15
-123,mobiles,iPhone 14,45215,Stay connected and productive with the iPhone 14.,1,101,2.7,2018-12-26
-124,mobiles,iPhone 14,91150,Stay connected and productive with the iPhone 14.,3,173,3.2,2019-10-21
-125,mobiles,iPhone 14,64296,Capture stunning photos with the iPhone 14.,2,281,4.7,2018-08-04
-126,washing machines,Bosch Fully Automatic,88199,The Bosch Fully Automatic makes laundry day a breeze.,2,393,4.5,2020-12-20
-127,mobiles,OnePlus 10,23103,The OnePlus 10 redefines smartphone innovation.,3,29,1.9,2018-08-11
-128,mobiles,Xiaomi Mi 11,56729,Capture stunning photos with the Xiaomi Mi 11.,4,137,1.4,2019-01-25
-129,laptops,MacBook Air,23905,The MacBook Air combines power and portability.,3,419,4.8,2018-08-25
-130,mobiles,Xiaomi Mi 11,135561,The Xiaomi Mi 11 redefines smartphone innovation.,5,455,3.9,2018-04-16
-131,headphones,Bose QuietComfort 35,7169,Enjoy long-lasting comfort with the Bose QuietComfort 35.,3,120,4.8,2021-09-20
-132,headphones,Beats Studio3,111290,The Beats Studio3 offers superior noise cancellation.,2,44,3.4,2018-01-01
-133,headphones,Sony WH-1000XM4,122113,The Sony WH-1000XM4 offers superior noise cancellation.,4,168,3.9,2022-10-19
-134,laptops,Asus ZenBook,138298,The Asus ZenBook is perfect for work and play.,2,145,4.1,2020-12-01
-135,headphones,Sony WH-1000XM4,24363,Experience unparalleled sound quality with the Sony WH-1000XM4.,5,198,2.1,2021-04-04
-136,mobiles,Samsung Galaxy S22,127296,Stay connected and productive with the Samsung Galaxy S22.,3,456,2.5,2023-04-03
-137,mobiles,Xiaomi Mi 11,20858,Capture stunning photos with the Xiaomi Mi 11.,4,469,1.8,2023-10-17
-138,washing machines,Whirlpool Semi-Automatic,55283,The Whirlpool Semi-Automatic makes laundry day a breeze.,2,54,4.9,2020-10-04
-139,mobiles,iPhone 14,46552,The iPhone 14 redefines smartphone innovation.,3,227,3.1,2020-03-02
-140,mobiles,OnePlus 10,76988,Capture stunning photos with the OnePlus 10.,3,269,3.0,2018-02-22
-141,mobiles,Xiaomi Mi 11,98741,Capture stunning photos with the Xiaomi Mi 11.,4,286,2.9,2018-12-19
-142,headphones,Bose QuietComfort 35,100112,Enjoy long-lasting comfort with the Bose QuietComfort 35.,1,142,2.8,2021-04-21
-143,washing machines,Whirlpool Semi-Automatic,145302,Save time and energy with the Whirlpool Semi-Automatic.,5,151,4.2,2020-03-10
-144,headphones,Beats Studio3,37988,Enjoy long-lasting comfort with the Beats Studio3.,1,357,3.2,2023-05-02
-145,laptops,Asus ZenBook,91879,The Asus ZenBook is perfect for work and play.,2,348,1.8,2023-01-28
-146,mobiles,Google Pixel 7,39796,Capture stunning photos with the Google Pixel 7.,2,12,3.0,2023-10-12
-147,headphones,Sennheiser HD 450BT,55551,The Sennheiser HD 450BT offers superior noise cancellation.,1,465,3.5,2020-01-03
-148,mobiles,Samsung Galaxy S22,66206,Capture stunning photos with the Samsung Galaxy S22.,5,375,2.1,2019-12-15
-149,mobiles,Xiaomi Mi 11,117742,The Xiaomi Mi 11 redefines smartphone innovation.,1,26,4.7,2020-05-03
-150,washing machines,Samsung Top Load,36911,Save time and energy with the Samsung Top Load.,3,303,4.9,2019-08-23
-151,mobiles,Xiaomi Mi 11,108645,The Xiaomi Mi 11 redefines smartphone innovation.,5,117,4.2,2020-04-01
-152,mobiles,OnePlus 10,101047,Capture stunning photos with the OnePlus 10.,1,392,4.9,2022-04-08
-153,laptops,HP Spectre x360,116128,Experience seamless multitasking with the HP Spectre x360.,3,123,4.2,2023-10-01
-154,washing machines,Bosch Fully Automatic,10108,Effortlessly clean your clothes with the Bosch Fully Automatic.,4,57,4.9,2018-08-22
-155,laptops,MacBook Air,72341,The MacBook Air combines power and portability.,1,486,2.9,2019-05-27
-156,laptops,Lenovo ThinkPad X1,112522,Experience seamless multitasking with the Lenovo ThinkPad X1.,3,190,2.2,2019-04-16
-157,mobiles,Google Pixel 7,64080,Stay connected and productive with the Google Pixel 7.,4,100,1.8,2022-03-18
-158,laptops,Lenovo ThinkPad X1,66665,The Lenovo ThinkPad X1 is perfect for work and play.,3,38,2.5,2023-05-13
-159,mobiles,Samsung Galaxy S22,44369,Stay connected and productive with the Samsung Galaxy S22.,2,66,4.1,2021-06-18
-160,washing machines,Bosch Fully Automatic,120604,The Bosch Fully Automatic makes laundry day a breeze.,2,212,4.0,2022-03-07
-161,mobiles,Samsung Galaxy S22,31597,Capture stunning photos with the Samsung Galaxy S22.,2,435,3.1,2022-11-15
-162,mobiles,OnePlus 10,138900,Stay connected and productive with the OnePlus 10.,1,119,1.5,2022-12-18
-163,laptops,Dell XPS 13,131445,The Dell XPS 13 is perfect for work and play.,5,437,1.0,2023-05-04
-164,headphones,Sony WH-1000XM4,149096,Experience unparalleled sound quality with the Sony WH-1000XM4.,1,186,3.5,2021-12-22
-165,washing machines,IFB Top Load,21266,Effortlessly clean your clothes with the IFB Top Load.,2,130,4.0,2021-11-19
-166,laptops,Asus ZenBook,16317,The Asus ZenBook is perfect for work and play.,3,492,4.2,2021-05-24
-167,washing machines,Samsung Top Load,107746,Effortlessly clean your clothes with the Samsung Top Load.,4,259,4.6,2023-12-24
-168,headphones,Sennheiser HD 450BT,105726,The Sennheiser HD 450BT offers superior noise cancellation.,5,219,2.4,2022-09-11
-169,washing machines,Samsung Top Load,138859,Effortlessly clean your clothes with the Samsung Top Load.,2,59,1.9,2022-01-24
-170,washing machines,LG Front Load,34926,Effortlessly clean your clothes with the LG Front Load.,3,172,3.7,2021-01-17
-171,laptops,Asus ZenBook,57352,Experience seamless multitasking with the Asus ZenBook.,5,113,4.3,2020-08-17
-172,laptops,Asus ZenBook,31682,Experience seamless multitasking with the Asus ZenBook.,4,402,2.6,2020-07-18
-173,headphones,Bose QuietComfort 35,136711,Enjoy long-lasting comfort with the Bose QuietComfort 35.,2,269,2.8,2020-01-20
-174,washing machines,IFB Top Load,61071,Save time and energy with the IFB Top Load.,4,141,1.3,2020-09-03
-175,laptops,Dell XPS 13,98647,The Dell XPS 13 is perfect for work and play.,2,385,1.3,2020-10-20
-176,washing machines,Whirlpool Semi-Automatic,145232,Effortlessly clean your clothes with the Whirlpool Semi-Automatic.,3,38,3.7,2023-11-27
-177,washing machines,Bosch Fully Automatic,19832,Save time and energy with the Bosch Fully Automatic.,4,464,1.3,2018-12-13
-178,headphones,JBL Tune 750BT,6575,Experience unparalleled sound quality with the JBL Tune 750BT.,1,249,2.1,2022-03-05
-179,laptops,MacBook Air,117301,Experience seamless multitasking with the MacBook Air.,3,199,4.2,2019-10-23
-180,laptops,HP Spectre x360,90605,Experience seamless multitasking with the HP Spectre x360.,1,221,2.1,2023-06-02
-181,laptops,MacBook Air,99034,The MacBook Air is perfect for work and play.,4,395,2.1,2018-03-25
-182,headphones,Bose QuietComfort 35,28714,Experience unparalleled sound quality with the Bose QuietComfort 35.,2,73,2.8,2021-09-05
-183,washing machines,Bosch Fully Automatic,105663,Save time and energy with the Bosch Fully Automatic.,3,282,4.8,2021-06-07
-184,laptops,MacBook Air,18490,The MacBook Air combines power and portability.,2,265,3.0,2023-01-25
-185,laptops,Dell XPS 13,58389,The Dell XPS 13 combines power and portability.,5,349,4.3,2021-02-10
-186,laptops,Lenovo ThinkPad X1,11732,Experience seamless multitasking with the Lenovo ThinkPad X1.,2,208,1.5,2018-08-23
-187,mobiles,OnePlus 10,67211,The OnePlus 10 redefines smartphone innovation.,2,452,1.4,2020-05-15
-188,headphones,Beats Studio3,40124,Experience unparalleled sound quality with the Beats Studio3.,4,398,2.4,2020-09-13
-189,headphones,Sony WH-1000XM4,135840,Experience unparalleled sound quality with the Sony WH-1000XM4.,3,282,3.5,2021-03-21
-190,washing machines,Bosch Fully Automatic,122598,The Bosch Fully Automatic makes laundry day a breeze.,1,480,1.8,2021-10-18
-191,mobiles,Samsung Galaxy S22,107421,Stay connected and productive with the Samsung Galaxy S22.,5,61,2.0,2023-01-09
-192,headphones,Sony WH-1000XM4,148485,Enjoy long-lasting comfort with the Sony WH-1000XM4.,1,227,4.4,2022-12-10
-193,mobiles,Google Pixel 7,105222,The Google Pixel 7 redefines smartphone innovation.,4,367,1.9,2019-01-28
-194,washing machines,IFB Top Load,92660,Effortlessly clean your clothes with the IFB Top Load.,2,315,2.5,2018-08-12
-195,laptops,Asus ZenBook,132940,Experience seamless multitasking with the Asus ZenBook.,4,55,4.9,2021-01-27
-196,mobiles,Google Pixel 7,56039,The Google Pixel 7 redefines smartphone innovation.,1,93,1.5,2020-12-26
-197,headphones,Beats Studio3,35253,Experience unparalleled sound quality with the Beats Studio3.,3,187,4.0,2018-08-08
-198,mobiles,Samsung Galaxy S22,12684,Stay connected and productive with the Samsung Galaxy S22.,1,439,4.3,2023-09-06
-199,mobiles,OnePlus 10,70184,Stay connected and productive with the OnePlus 10.,1,322,2.4,2023-11-13
-200,mobiles,OnePlus 10,49048,Stay connected and productive with the OnePlus 10.,3,355,2.6,2022-08-10
+Category,Product Name,Price (INR),Description,Warranty Period (Years),Stock,Review Rating,Product Release Date
+Headphones,Buchanan Inc Laptop,2820,Energy-efficient,5,185,1.7,2020-01-21
+Laptops,"Ward, Marsh and Brown Mobile",20692,User-friendly,3,415,2.7,2022-11-20
+Washing Machines,Miller Ltd Mobile,31454,High-quality sound,4,48,4.6,2021-01-26
+Mobiles,Taylor-Mckay Headphones,40765,User-friendly,5,431,1.1,2024-04-05
+Washing Machines,"Schultz, Callahan and Hunt Mobile",34258,User-friendly,3,384,4.4,2020-05-28
+Washing Machines,"Solis, Ryan and Montgomery Laptop",99776,Top-rated,2,184,5,2022-10-03
+Washing Machines,Gamble-Wolfe Laptop,10892,Compact design,1,109,1.1,2021-08-17
+Mobiles,"Mcmahon, Berry and Nelson Mobile",16921,Lightweight and portable,1,54,2.3,2022-06-06
+Headphones,Miller LLC Headphones,17616,User-friendly,3,443,4.2,2021-08-24
+Laptops,"Mills, Torres and Edwards Headphones",82652,Best value for money,1,377,3.1,2024-07-11
+Headphones,Mathews LLC Mobile,61855,Advanced features,4,214,2.1,2020-07-22
+Headphones,"Wilson, Hurley and Herrera Headphones",85183,User-friendly,2,463,4.9,2020-02-21
+Washing Machines,Schneider-Scott Laptop,93956,Energy-efficient,2,463,2.2,2021-05-18
+Laptops,"Walker, Williams and Mitchell Laptop",82046,Latest model,5,183,2.9,2024-02-13
+Laptops,Patel Inc Headphones,94074,Advanced features,2,206,4.7,2020-09-01
+Headphones,Mills Ltd Washing Machine,55197,Durable build,4,127,4.3,2019-08-18
+Laptops,Rogers Group Mobile,4694,Latest model,1,221,2.6,2021-06-21
+Laptops,Saunders LLC Laptop,71259,Best value for money,1,59,2.6,2023-06-13
+Mobiles,Soto Ltd Washing Machine,79827,Latest model,2,163,2.6,2022-10-01
+Headphones,Doyle-Anderson Washing Machine,18022,Durable build,5,144,2.7,2024-05-24
+Washing Machines,Gilmore-Miller Headphones,80955,High-quality sound,1,416,4.3,2023-04-20
+Headphones,Bowers Ltd Laptop,62561,Durable build,5,437,2.6,2024-04-08
+Headphones,Meyer-Owens Laptop,85711,Latest model,3,143,3.4,2021-06-04
+Headphones,Welch LLC Washing Machine,43655,High-quality sound,1,97,4.5,2024-06-22
+Headphones,"Pena, Walker and Parker Laptop",41018,Best value for money,1,43,2.1,2020-03-14
+Laptops,Medina-Taylor Mobile,53388,Lightweight and portable,2,492,3.9,2019-08-18
+Washing Machines,Donovan-Weber Mobile,2042,Advanced features,5,362,3.8,2023-10-16
+Headphones,Bell Ltd Laptop,80480,Latest model,3,75,2.1,2020-06-21
+Headphones,Stevens-Bennett Laptop,90792,Compact design,2,31,1.3,2019-12-06
+Mobiles,Simpson-Pruitt Laptop,15725,Top-rated,2,493,3.3,2021-07-10
+Headphones,Harris-Morales Headphones,48469,User-friendly,5,303,4.9,2023-11-03
+Washing Machines,Cole-Molina Laptop,75358,High-quality sound,4,221,3.6,2020-10-31
+Washing Machines,Holland-Guerrero Washing Machine,25016,Top-rated,4,256,4.1,2023-02-27
+Headphones,Underwood Group Washing Machine,58941,High-quality sound,4,470,2.4,2019-09-30
+Laptops,King-Howe Washing Machine,47624,Best value for money,5,14,4.8,2024-07-09
+Headphones,"Keith, Russell and Parker Washing Machine",78220,Durable build,4,35,4.2,2022-10-20
+Washing Machines,Patrick-Walker Washing Machine,99908,Top-rated,4,392,3.2,2021-06-05
+Laptops,Phillips and Sons Mobile,6313,Compact design,1,167,4.3,2022-02-08
+Mobiles,Clay Ltd Laptop,54210,User-friendly,1,399,3.7,2019-09-21
+Washing Machines,"Dixon, Wilkinson and Hancock Laptop",8527,Energy-efficient,2,351,1,2021-03-24
+Washing Machines,Wilson Group Headphones,20094,Advanced features,2,284,1.7,2021-11-22
+Washing Machines,"Tate, Duran and Nguyen Laptop",36763,Durable build,5,429,2,2022-05-08
+Mobiles,Bass Inc Laptop,71841,Lightweight and portable,2,63,4,2023-02-14
+Washing Machines,Page LLC Laptop,11578,User-friendly,3,418,4.7,2020-12-14
+Headphones,Mckinney-Andrews Headphones,83694,Top-rated,3,147,2.1,2023-04-12
+Washing Machines,Turner and Sons Headphones,48092,Lightweight and portable,3,255,4.9,2024-05-27
+Washing Machines,"Davis, Mullins and Johnson Headphones",93648,Advanced features,5,474,2.2,2021-12-19
+Mobiles,"Tran, Gross and Curry Headphones",18068,Energy-efficient,1,276,3.8,2022-02-17
+Laptops,Morales-Keller Washing Machine,14166,Latest model,4,35,4.9,2020-10-03
+Washing Machines,Ellis and Sons Headphones,35628,Best value for money,3,233,2.9,2020-02-21
+Washing Machines,Romero-Steele Headphones,41688,Top-rated,2,432,2.4,2023-06-24
+Washing Machines,"Calderon, Brown and Kemp Headphones",54978,Advanced features,2,240,3.2,2021-09-03
+Headphones,Brown-Miller Mobile,9121,Energy-efficient,5,276,4,2020-07-14
+Mobiles,Martinez PLC Headphones,28361,High-quality sound,1,75,3.1,2023-03-20
+Headphones,Mccormick Group Mobile,66532,High-quality sound,3,245,2.6,2024-03-22
+Mobiles,Lane LLC Washing Machine,52656,Advanced features,5,151,3.1,2023-05-29
+Mobiles,"Gomez, Casey and Carrillo Mobile",35211,Best value for money,3,186,1.9,2021-06-13
+Laptops,"Hall, Fisher and Thompson Washing Machine",95712,Compact design,4,462,4.2,2022-12-05
+Headphones,Nguyen-Tate Mobile,70811,Top-rated,5,456,4.4,2022-09-01
+Washing Machines,Copeland-Martinez Laptop,34631,User-friendly,2,365,1.7,2019-10-21
+Mobiles,Gutierrez-Thomas Headphones,30164,Lightweight and portable,1,356,3.2,2023-08-17
+Washing Machines,Martin-Baker Washing Machine,90966,Top-rated,4,47,4.8,2023-11-19
+Headphones,Jackson PLC Laptop,56933,Latest model,1,373,5,2022-05-25
+Laptops,"Johnson, Harper and Phillips Washing Machine",10196,Advanced features,2,312,3.7,2022-04-03
+Headphones,Floyd-Mcguire Headphones,25638,User-friendly,4,80,1.5,2021-06-02
+Mobiles,"Ingram, Mcmahon and Sosa Laptop",82761,Best value for money,3,369,2.7,2023-07-07
+Headphones,Rush and Sons Washing Machine,50203,High-quality sound,4,108,3.5,2020-06-03
+Washing Machines,Terrell PLC Washing Machine,43184,Durable build,3,402,2,2024-06-07
+Headphones,"Johnson, Bailey and Sharp Laptop",37063,Durable build,3,47,4.8,2019-09-21
+Headphones,Luna PLC Laptop,80758,Durable build,5,268,4.1,2021-05-07
+Laptops,Powers-Snyder Mobile,66352,Energy-efficient,4,234,2.1,2020-01-13
+Mobiles,"Gordon, Brown and Gutierrez Laptop",58532,Advanced features,1,202,1.7,2021-08-12
+Laptops,Clark-Cook Mobile,24667,User-friendly,2,122,4.8,2021-12-04
+Laptops,Hanna-Webb Washing Machine,17073,User-friendly,3,216,2,2023-06-02
+Headphones,Morgan and Sons Headphones,62980,Durable build,4,35,3.7,2021-08-09
+Mobiles,"Knight, Shah and Chambers Laptop",86096,Lightweight and portable,2,176,3.5,2022-05-13
+Laptops,Hall and Sons Mobile,53724,Compact design,3,344,3.3,2022-07-21
+Laptops,Wright-Williams Washing Machine,92395,Advanced features,3,47,4.7,2021-04-09
+Headphones,Yates-Cruz Mobile,44469,Durable build,4,448,2.9,2022-05-11
+Laptops,"Greer, Luna and Brown Mobile",36941,User-friendly,1,149,2.2,2020-01-02
+Laptops,"Anderson, Boyd and Carlson Washing Machine",68944,High-quality sound,3,38,4.3,2023-10-31
+Headphones,"Acosta, Hoffman and Quinn Laptop",33310,Latest model,5,187,4.5,2023-02-22
+Headphones,"Weaver, Sanchez and Parsons Mobile",74780,High-quality sound,5,432,2,2020-05-30
+Headphones,"Bauer, Townsend and Melendez Mobile",54025,User-friendly,1,175,1.1,2019-08-24
+Headphones,Anderson Inc Headphones,19872,Latest model,3,367,1.8,2024-04-04
+Laptops,Benjamin Inc Washing Machine,21211,Energy-efficient,2,397,4.9,2024-03-28
+Headphones,Jarvis-Green Mobile,85305,Best value for money,5,149,2.8,2021-03-18
+Mobiles,"Harrison, Wood and Le Mobile",32389,Energy-efficient,2,407,3.5,2021-12-03
+Mobiles,Austin-Patton Laptop,93039,Top-rated,2,318,4.1,2022-11-03
+Washing Machines,Sanchez-Haley Laptop,37117,Durable build,3,21,3.9,2020-05-17
+Headphones,Williams PLC Mobile,18710,Lightweight and portable,3,494,2.3,2023-08-11
+Mobiles,Campbell-Lewis Washing Machine,28602,High-quality sound,3,153,2.6,2023-09-13
+Washing Machines,Stanley-Cochran Mobile,84135,User-friendly,4,358,2,2022-01-16
+Mobiles,Berry-Perez Laptop,65015,Compact design,2,342,1.8,2022-07-31
+Headphones,Shaw-Rodriguez Laptop,89080,High-quality sound,4,499,4.7,2022-08-09
+Washing Machines,Patel-Mayer Mobile,19781,Durable build,1,192,2.3,2021-10-13
+Mobiles,Young LLC Headphones,99828,Best value for money,2,485,1.5,2020-10-03
+Laptops,Velez PLC Headphones,47081,Top-rated,3,500,3.1,2020-07-28
+Laptops,"Norton, Jones and Reynolds Mobile",81150,Best value for money,5,315,4.5,2019-09-30
+Headphones,Barnes and Sons Washing Machine,46346,Advanced features,5,110,1.6,2024-04-08

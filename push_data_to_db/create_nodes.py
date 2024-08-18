@@ -62,6 +62,11 @@ def create_product(product_data_df):
 
 
 def execute_bulk_query(query_list):
+    """
+    Executes queries is a list one by one
+    :param query_list: list - list of cypher queries
+    :return: None
+    """
     url = "bolt://localhost:7687"
     auth = ("neo4j", "neo4j@123")
 
