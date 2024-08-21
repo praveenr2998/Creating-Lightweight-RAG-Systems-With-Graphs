@@ -16,13 +16,13 @@ def preprocessing(df, columns_to_replace):
     return df
 
 
-def create_category_food_relationship_query(product_data_df):
+def create_type_detail_relationship_query(product_data_df):
     """
-    Used to create relationship between category and products
+    Used to create relationship between Product_type and Product_details
     :param product_data_df: dataframe - data
     :return: query_list: list - cypher queries
     """
-    query = """MATCH (c:Category {name: '%s'}), (p:Product {name: '%s'}) CREATE (c)-[:CATEGORY_CONTAINS_PRODUCT]->(p)"""
+    query = """MATCH (c:Product_type {name: '%s'}), (p:Product_details {name: '%s'}) CREATE (c)-[:CONTAINS]->(p)"""
     query_list = []
     for idx, row in product_data_df.iterrows():
         query_list.append(query % (row['Category'], row['Product Name']))
@@ -51,5 +51,5 @@ def execute_bulk_query(query_list):
 product_data_df = preprocessing(product_data_df, ['Product Name', 'Description'])
 
 # CATEGORY - FOOD RELATIONSHIP
-query_list = create_category_food_relationship_query(product_data_df)
+query_list = create_type_detail_relationship_query(product_data_df)
 execute_bulk_query(query_list)

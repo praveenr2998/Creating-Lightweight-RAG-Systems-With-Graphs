@@ -29,28 +29,28 @@ def get_embedding(text):
     return client.embeddings.create(input=[text], model=model).data[0].embedding
 
 
-def create_category(product_data_df):
+def create_product_type(product_data_df):
     """
-    Used to generate queries for creating category nodes in neo4j
+    Used to generate queries for creating product type nodes in neo4j
     :param product_data_df: pandas dataframe - data
     :return: query_list: list - list containing all create node queries for category
     """
-    cat_query = """CREATE (a:Category {name: '%s', embedding: %s})"""
-    distinct_category = product_data_df['Category'].unique()
+    cat_query = """CREATE (a:Product_type {name: '%s', embedding: %s})"""
+    distinct_product_types = product_data_df['Category'].unique()
     query_list = []
-    for category in distinct_category:
-        embedding = get_embedding(category)
-        query_list.append(cat_query % (category, embedding))
+    for type_ in distinct_product_types:
+        embedding = get_embedding(type_)
+        query_list.append(cat_query % (type_, embedding))
     return query_list
 
 
-def create_product(product_data_df):
+def create_product_details(product_data_df):
     """
-    Used to generate queries for creating product nodes in neo4j
+    Used to generate queries for creating product_details nodes in neo4j
     :param product_data_df: pandas dataframe - data
     :return: query_list: list - list containing all create node queries for product
     """
-    product_query = """CREATE (a:Product {name: '%s', description: '%s', price: %d, warranty_period: %d, 
+    product_query = """CREATE (a:Product_details {name: '%s', description: '%s', price: %d, warranty_period: %d, 
     available_stock: %d, review_rating: %f, product_release_date: date('%s'), embedding: %s})"""
     query_list = []
     for idx, row in product_data_df.iterrows():
@@ -82,11 +82,11 @@ def execute_bulk_query(query_list):
 # PREPROCESSING
 product_data_df = preprocessing(product_data_df, ['Product Name', 'Description'])
 
-# CREATE CATEGORY
-query_list = create_category(product_data_df)
+# CREATE PRODUCT TYPE
+query_list = create_product_type(product_data_df)
 execute_bulk_query(query_list)
 
-# CREATE PRODUCT
-query_list = create_product(product_data_df)
+# CREATE PRODUCT DETAIL
+query_list = create_product_details(product_data_df)
 execute_bulk_query(query_list)
 
