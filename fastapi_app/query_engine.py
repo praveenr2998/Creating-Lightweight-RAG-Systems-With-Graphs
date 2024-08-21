@@ -15,6 +15,7 @@ class GraphQueryEngine:
         self.auth = ("neo4j", "neo4j@123")
 
     def populate_embedding_in_query(self, user_input, cypher_queries):
+        """Used to add embeddings of the user input in the 3rd query"""
         model = "text-embedding-3-small"
         user_input = user_input.replace("\n", " ")
         embeddings = self.client.embeddings.create(input=[user_input], model=model).data[0].embedding
@@ -22,6 +23,7 @@ class GraphQueryEngine:
         return cypher_queries
 
     def execute_read_query(self, query):
+        """Execute the cypher query"""
         results = []
 
         with GraphDatabase.driver(self.url, auth=self.auth) as driver:
@@ -38,6 +40,7 @@ class GraphQueryEngine:
         return results
 
     def get_response(self, user_input):
+        """Used to get cypher queries from user input"""
         completion = self.client.beta.chat.completions.parse(
             model="gpt-4o-2024-08-06",
             messages=[
@@ -85,6 +88,7 @@ class GraphQueryEngine:
         return cypher_queries
 
     def get_final_response(self, user_input, fetched_data):
+        """Augumented generation using data fetched from DB"""
         completion = self.client.beta.chat.completions.parse(
             model="gpt-4o-2024-08-06",
             messages=[
@@ -101,6 +105,7 @@ class GraphQueryEngine:
         return response
 
     def fetch_data(self, cypher_queries):
+        """Return the fetched data from DB post formatting"""
         results = None
         for idx in range(len(cypher_queries)):
             try:
@@ -112,8 +117,4 @@ class GraphQueryEngine:
             except Exception:
                 pass
         return results
-
-
-
-
-
+    
